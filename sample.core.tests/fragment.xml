@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<fragment>
+   <extension
+         point="sample.core.books">
+      <book
+            category="工口本"
+            isbn="1000"
+            title="Sample Book">
+         <author
+               image="resource/nodamushi.png"
+               name="nodamushi">
+         </author>
+         <page
+               contents="sample.core.tests.BookPage1"
+               number="1">
+         </page>
+         <enablement>
+            <with
+                  variable="hoge">
+               <equals
+                     value="HOGE">
+               </equals>
+            </with>
+         </enablement>
+      </book>
+   </extension>
+
+</fragment>

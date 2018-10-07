@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Core
+Bundle-SymbolicName: sample.core;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: sample.core.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.expressions;bundle-version="3.6.200"
+Bundle-RequiredExecutionEnvironment: JavaSE-10
+Automatic-Module-Name: sample.core
+Bundle-ActivationPolicy: lazy
+Export-Package: sample.core
